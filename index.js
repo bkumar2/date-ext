@@ -18,6 +18,7 @@
  */
 
 var datetimeExt = {
+	parse: _parse
 };
 
 module.exports = datetimeExt;
@@ -49,6 +50,7 @@ function _parse(datetime,datetimeFormat) {
 	var outputDatetime = new Date(outputDatetimeString);
 	console.log("datetimeRegexPattern:",datetimeRegexPattern);
 	console.log("outputDatetime:",outputDatetime);
+	return outputDatetime;
 }
 
 _parse("2009-07-12 12:34:56","yyyy-MM-dd hh:mm:ss");

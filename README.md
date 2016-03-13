@@ -15,3 +15,14 @@ var datetimeExt = require('datetime-ext');
 ```
 
 ## API Documentation
+* [`parse()`](#parse)
+
+
+<a id="parse" name="parse"/>
+### parse()
+Parses a datetime string into a date object.
+
+```javascript
+// Sun Jul 12 2009 12:34:56
+var date = datetimeExt.parse("2009-07-12 12:34:56", "yyyy-MM-dd hh:mm:ss");
+```
