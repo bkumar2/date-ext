@@ -1,0 +1,26 @@
+{
+  "name": "datetime-ext",
+  "version": "0.1.1",
+  "description": "Utility functions for parsing date, datetime, time",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkumar2/datetime-ext.git.git"
+  },
+  "keywords": [
+    "date",
+    "date",
+    "parser",
+    "date",
+    "extension"
+  ],
+  "author": "Bipul Kumar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bkumar2/datetime-ext.git/issues"
+  },
+  "homepage": "https://github.com/bkumar2/datetime-ext.git#readme"
+}
